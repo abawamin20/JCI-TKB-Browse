@@ -1,0 +1,28 @@
+.selectedItem {
+  background-color: rgb(213, 212, 212);
+  font-weight: 700;
+}
+
+.termSet {
+  min-height: auto;
+  height: 700px;
+  overflow-y: auto;
+  scrollbar-color: #efefef;
+  scrollbar-width: thin;
+}
+
+.term_item {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-weight: 500;
+  border-bottom: 1px solid #efefef;
+}
+
+.knowledgeSetText {
+  background-color: #efefef;
+  text-align: center;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 600;
+}

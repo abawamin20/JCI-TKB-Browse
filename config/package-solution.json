@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "jc-tkb-browse-client-side-solution",
+    "id": "983b0fa0-d67b-44f8-8677-234dd2a20683",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "jc-tkb-browse description"
+      },
+      "longDescription": {
+        "default": "jc-tkb-browse description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "jc-tkb-browse Feature",
+        "description": "The feature that activates elements of the jc-tkb-browse solution.",
+        "id": "b784dd31-0214-4ac7-94e5-8a16fcff4852",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/jc-tkb-browse.sppkg"
+  }
+}

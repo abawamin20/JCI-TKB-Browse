@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "jci-tkb-browse-pages-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/jciTkbBrowsePages/JciTkbBrowsePagesWebPart.js",
+          "manifest": "./src/webparts/jciTkbBrowsePages/JciTkbBrowsePagesWebPart.manifest.json"
+        }
+      ]
+    },
+    "jci-tkb-browse-menu-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/jciTkbBrowseMenu/JciTkbBrowseMenuWebPart.js",
+          "manifest": "./src/webparts/jciTkbBrowseMenu/JciTkbBrowseMenuWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "JciTkbBrowsePagesWebPartStrings": "lib/webparts/jciTkbBrowsePages/loc/{locale}.js",
+    "JciTkbBrowseMenuWebPartStrings": "lib/webparts/jciTkbBrowseMenu/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}

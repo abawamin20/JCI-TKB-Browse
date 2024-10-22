@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "nodeVersion": "16.15.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "jc-tkb-browse",
+    "libraryId": "983b0fa0-d67b-44f8-8677-234dd2a20683",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "jc-tkb-browse",
+    "solutionShortDescription": "jc-tkb-browse description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
